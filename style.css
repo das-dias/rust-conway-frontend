@@ -1,0 +1,53 @@
+.body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+}
+
+.code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, monospace;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 100%;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.App-controls{
+    margin: 0;
+    padding: 0;
+}
+
+.App-board {
+    margin: 100px;
+    width: 50%;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
